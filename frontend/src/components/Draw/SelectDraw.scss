@@ -1,0 +1,25 @@
+.SelectDraw{
+  margin-top: 50px;
+  margin-inline: 120px;
+}
+
+.drawCard2{
+  width: vw(110px);
+  height: vw(150px);
+  margin-inline: 25px;
+  opacity: 50%;
+}
+.CardList{
+  flex-wrap: wrap;
+}
+
+.selectbutton{
+  padding: 0;
+}
+
+.selectedCard{
+  width: vw(110px);
+  height: vw(150px);
+  margin-inline: 25px;
+  opacity: 100%;
+}

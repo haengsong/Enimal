@@ -1,0 +1,23 @@
+.draw{
+  margin-top: 80px;
+  margin-inline: 135px;
+}
+
+.drawTabA{
+  color: $TYPO-27;
+  margin-inline: 30px;
+  font-size: vw(30px);
+  font-family: "NotoSansBold";
+  
+}
+.drawTabB{
+  color: $TYPO-27;
+  margin-inline: 30px;
+  opacity: 50%;
+  font-size: vw(30px);
+  font-family: "NotoSansBold";
+}
+.drawTab{
+  display: flex;
+  justify-content: space-around;
+}

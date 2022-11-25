@@ -1,0 +1,66 @@
+.cashModal{
+  width: 600px;
+}
+
+.cashMain{
+  height: 400px;
+  margin-inline: auto;
+  padding-block: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cashInput{
+  border: 4px solid $MAIN;
+  width: 300px;
+  height: 50px;
+  text-align: end;
+  padding-inline: 20px;
+}
+
+.cashInputSet{
+  margin-left: 60px;
+}
+
+.arrowDown{
+  width: 50px;
+  height: 150px;
+}
+
+.donaRange{
+  margin-block: 20px;
+  width: 280px;
+  height: 50px;
+}
+
+input[type=range]::-webkit-slider-runnable-track { 
+  width: 100%; height: 15px; 
+  cursor: pointer; 
+  background: $MAIN;
+  border-radius: 5px; 
+}
+
+.saveBox{
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border: 4px solid $MAIN;
+  padding-inline: 20px;
+}
+
+.changeButton{
+  width: 150px;
+  height: 50px;
+  background-color: $MAIN;
+  margin-bottom: 30px;
+}
+
+.closeButton{
+  width: 150px;
+  height: 50px;
+  background-color: #E8E8E8;
+  margin-bottom: 30px;
+}

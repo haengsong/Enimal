@@ -1,0 +1,22 @@
+.MyArticlesBox{
+  margin-top: 80px;
+}
+
+.MyArticles{
+  overflow-x: auto;
+}
+
+
+.MyArticles::-webkit-scrollbar {
+  width: 10px;
+}
+
+.MyArticles::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: $MAIN;
+  border-radius: 10px;
+}
+
+.MyArticles::-webkit-scrollbar-track {
+  background: rgba(196, 217, 248, 0.1);
+}

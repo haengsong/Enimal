@@ -1,0 +1,100 @@
+.container {
+  justify-content: center;
+}
+
+.regi {
+  width: vw(1100px);
+  margin-top: vw(66px);
+
+  &_pagetitle {
+    margin-bottom: vw(40px);
+  }
+
+  .divide {
+    width: 100%;
+    height: vw(1px);
+    background-color: $GRAY-E4;
+  }
+
+  &_content {
+    &_img {
+      margin-top: vw(36px);
+      background-color: #f6f7f9;
+      width: vw(480px);
+      height: vw(320px);
+      margin-bottom: vw(40px);
+      border-radius: vw(15px);
+
+      img {
+        width: vw(70px);
+        height: vw(65px);
+        color: $GRAY-E4;
+      }
+    }
+  }
+
+  &_text {
+    width: vw(900px);
+    margin-left: vw(100px);
+
+    &_title {
+      margin-bottom: vw(16px);
+      color: $GRAY-67;
+    }
+
+    &_write {
+      margin-top: vw(24px);
+      color: $GRAY-67;
+      margin-bottom: vw(400px);
+    }
+  }
+
+  &_button {
+    justify-content: center;
+    width: vw(180px);
+    height: vw(64px);
+    background-color: $MAIN;
+    border-radius: vw(16px);
+    margin-bottom: vw(100px);
+    margin-left: vw(475px);
+
+    button {
+      color: $WHITE;
+    }
+  }
+}
+
+.regi_textarea {
+  border: none;
+  width: 900px;
+  height: 500px;
+  margin-bottom: 100px;
+  outline: none;
+}
+
+
+.NFTcardCommuS{
+  display: inline-block;
+  width: vw(300px);
+  height: vw(440px);
+  text-align: center;
+  border: 1px solid rgb(95, 95, 95);
+  box-shadow: 3px 3px 5px 0;
+  padding: 0;
+  opacity: 50%;
+}
+.NFTcardCommuN{
+  display: inline-block;
+  width: vw(300px);
+  height: vw(440px);
+  text-align: center;
+  border: 1px solid rgb(95, 95, 95);
+  box-shadow: 3px 3px 5px 0;
+  padding: 0;
+}
+
+.NFTImg2{
+  width: vw(300px);
+  height: vw(340px);
+  margin-top: -15px;
+}

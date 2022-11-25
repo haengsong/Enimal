@@ -1,0 +1,31 @@
+.Achievements{
+  width: vw(870px);
+  border: 1px solid $MAIN;
+}
+
+
+.AchiveNav{
+  display: flex;
+  align-items: center;
+  background-color: $MAIN;
+  height: 60px;
+  color: $TYPO-27;
+  padding-left: 30px;
+}
+
+.badgeImg{
+  width: vw(150px);
+  height: vw(150px);
+  opacity: 30%;
+}
+.badgeImg2{
+  width: vw(150px);
+  height: vw(150px);
+}
+.AchiveBox{
+  display: flex;
+  justify-content: space-around;
+}
+.badge{
+  margin-block: 40px;
+}

@@ -1,0 +1,49 @@
+.container {
+  justify-content: center;
+}
+
+.notiani {
+  width: vw(1100px);
+  margin-top: vw(120px);
+
+  &_pgtitle {
+    margin-bottom: vw(40px);
+  }
+
+
+
+  .divide {
+    width: 100%;
+    height: (1px);
+    background-color: $GRAY-E4;
+  }
+
+  .divide_2 {
+    width: 100%;
+    height: (1px);
+    background-color: $GRAY-E4;
+    margin-bottom: vw(24px);
+  }
+
+  &_text {
+    &_title {
+      margin-bottom: vw(12px);
+      color: $GRAY-40;
+
+    }
+  }
+
+  &_txt {
+    margin-top: vw(20px);
+    color: $GRAY-40;
+    margin-bottom: vw(20px);
+  }
+
+  &_tex {
+    word-spacing: vw(4px);
+    line-height: 1.5;
+    margin-bottom: vw(100px);
+  }
+
+
+}

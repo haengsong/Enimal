@@ -1,0 +1,109 @@
+.AllDraw{
+  margin-top: 50px;
+  margin-inline: 120px;
+}
+
+.drawImg{
+  width: vw(100px);
+  height: vw(110px);
+}
+
+.drawTitle{
+  width: vw(100px);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.drawCard{
+  width: vw(110px);
+  height: vw(150px);
+  margin-inline: 20px;
+}
+
+.CardList{
+  flex-wrap: wrap;
+}
+
+.drawButton{
+  display: block;
+  width: vw(350px);
+  height: vw(50px);
+  background-color: $MAIN;
+  margin-inline: auto;
+  margin-block: 50px;
+  color: $TYPO-27;
+  box-shadow: 1px 1px 2px 0px;
+  border-radius: 3px;
+}
+
+.drawNotice{
+  margin-block: 10px;
+  text-align: center;
+}
+
+.drawNotice2{
+  margin-top: 30px;
+  color: $TYPO-27;
+}
+
+.Lbox{
+  background-color: $MAIN;
+  color: red;
+  box-shadow: 1px 1px 2px 1px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+.Ubox{
+  background-color: $MAIN;
+  color: rgb(100, 190, 15);
+  box-shadow: 1px 1px 2px 1px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+.Ebox{
+  background-color: $MAIN;
+  color: rgb(52, 89, 255);
+  box-shadow: 1px 1px 2px 1px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+.Rbox{
+  background-color: $MAIN;
+  color: rgb(165, 55, 255);
+  box-shadow: 1px 1px 2px 1px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+.Nbox{
+  background-color: $MAIN;
+  color: rgb(70, 70, 70);
+  box-shadow: 1px 1px 2px 1px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.Lc{
+  color: red;
+}
+.Uc{
+  color: rgb(100, 190, 15);
+}
+.Ec{
+  color: rgb(52, 89, 255);
+}
+.Rc{
+  color: rgb(165, 55, 255);
+}
+.Nc{
+  color: rgb(70, 70, 70);
+}

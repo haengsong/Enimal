@@ -1,0 +1,43 @@
+.MyPage{
+  margin-top: 150px;
+  margin-inline: 135px;
+}
+
+.profileImg{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.Gear{
+  margin-top: 30px;
+  margin-inline: 10px;
+  height: 25px;
+  color: $TYPO-27;
+  
+}
+
+.userNick{
+  color: $TYPO-27;
+}
+
+.deleteButton{
+  background-color: #CBDFF1;
+  border-radius: 10px;
+  height: 25px;
+}
+
+.mypageTabA{
+  color: $TYPO-27;
+  margin-inline: 30px;
+  font-size: vw(24px);
+  font-family: "NotoSansBold";
+  
+}
+.mypageTabB{
+  color: $TYPO-27;
+  margin-inline: 30px;
+  opacity: 50%;
+  font-size: vw(24px);
+  font-family: "NotoSansBold";
+}

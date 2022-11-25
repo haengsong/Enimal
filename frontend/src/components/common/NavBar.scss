@@ -1,0 +1,42 @@
+.mainNav {
+    background-color: $MAIN;
+    padding: 0;
+    height: vh(80px);
+    width: vw(1440px);
+    justify-content: space-between;
+
+}
+
+.basic-navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.save {
+    // color: $BLACK;
+    margin-right: vw(64px);
+
+
+}
+
+.drawBtn {
+    // color : $BLACK
+    margin-right: vw(64px);
+}
+
+.nav-dropdown1 {
+    // color : $BLACK
+    margin-right: vw(64px);
+}
+
+.logoimg {
+    height: 50px;
+    margin-left: 20px;
+}
+
+@media (max-width:992px) {}
+
+.Navtext {
+    text-align: end;
+}

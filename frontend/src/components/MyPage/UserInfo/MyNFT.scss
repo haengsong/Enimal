@@ -1,0 +1,58 @@
+.myCollection{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.NFTList{
+  white-space:nowrap;
+  overflow-x: auto;
+  padding-inline: 60px;
+  margin-block: 70px;
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+
+.NFTcard{
+  display: inline-block;
+  width: vw(300px);
+  height: vw(460px);
+  text-align: center;
+  border: 1px solid rgb(95, 95, 95);
+  box-shadow: 3px 3px 5px 0;
+  padding: 0;
+}
+.NFTImg{
+  width: vw(300px);
+  height: vw(350px);
+}
+.NFTList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.NFTList::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: $MAIN;
+  border-radius: 10px;
+}
+
+.NFTList::-webkit-scrollbar-track {
+  background: rgba(196, 217, 248, 0.1);
+}
+
+.MakeNFT{
+  background-color: $MAIN;
+  border-radius: 10px;
+  height: 60px;
+  position: absolute;
+  width: 80%;
+  margin-left: -90%;
+  margin-top: 50%;
+  text-align: center;
+}
+
+.NoNFT{
+  position: relative;
+  width: vw(300px);
+  height: vw(470px);
+}

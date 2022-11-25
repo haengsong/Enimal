@@ -1,0 +1,58 @@
+.container {
+  justify-content: center;
+
+}
+
+.notiRegi {
+  width: vw(1100px);
+  margin-top: vw(80px);
+
+  .divide {
+    width: 100%;
+    height: vw(1px);
+    background-color: $GRAY-E4;
+  }
+
+
+  &_pgtitle {
+    margin-bottom: vw(60px);
+		width: vw(900px);
+		margin-left: vw(100px);
+  }
+  &_text {
+		width: vw(900px);
+		margin-left: vw(100px);
+
+		&_title {
+			margin-bottom: vw(16px);
+			width: vw(900px);
+			color: $GRAY-67;
+		}
+
+		&_write {
+			margin-top: vw(24px);
+			color: $GRAY-67;
+			margin-bottom: vw(100px);
+			border: none;
+			width: vw(900px);
+			height: vw(500px);
+			outline: none;
+		}
+	}
+
+	&_button {
+		justify-content: center;
+		width: vw(180px);
+		height: vw(64px);
+		background-color: $MAIN;
+		border-radius: vw(16px);
+		margin-bottom: vw(100px);
+		margin-left: vw(475px);
+
+		button {
+			color: $WHITE;
+		}
+	}
+
+
+}

@@ -1,0 +1,43 @@
+.card {
+  width: 30%;                                                                                                                                                             
+  border: none;
+  margin-block: 30px;
+  &_profile {
+    margin-bottom: vw(16px);
+    &_img {
+      border-radius: vw(15px);
+      margin-right: vw(10px);
+      img {
+        width: vw(32px);
+        height: vw(32px);
+        border-radius: vw(12px);
+      }
+    }
+  }
+
+  &_pic {
+    margin-bottom: vw(32px);
+    img {
+      width: 100%;
+      height: vw(340px);
+      border-radius: vw(15px);
+    }
+  }
+
+  &_txt {
+    margin-bottom: vw(24px);
+  }
+}
+
+.cardList {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.eye{
+  width: 20px;
+  height: 20px;
+  color: rgb(150, 150, 150);
+  margin-block: auto;
+  
+}

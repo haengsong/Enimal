@@ -1,0 +1,22 @@
+.CollectionRank{
+  margin-top: 100px;
+}
+
+.title{
+  text-align: center;
+}
+
+
+.cRank{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.RankList{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-block: 3%;
+}

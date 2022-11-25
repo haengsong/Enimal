@@ -1,0 +1,38 @@
+.ssafy{
+  background: linear-gradient(to right, rgb(57, 102, 250), rgb(32, 184, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textInput{
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-inline: 10px;
+  margin-block: 10px;
+}
+
+.submitButton{
+  background-color: $MAIN;
+}
+
+.cancleButton{
+  background-color: #E8E8E8;
+}
+
+.nickInput{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-inline: 10px;
+  margin-top: 10px;
+}
+
+.keyInputBox{
+  margin-block: 30px;
+
+}
+
+.loginModal{
+  width: 800px;
+}

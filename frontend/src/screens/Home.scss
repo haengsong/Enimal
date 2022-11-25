@@ -1,0 +1,197 @@
+.MainPage1{
+  height: 97vh;
+  margin-top: 55px;
+  background-image: url(../assets/images/main.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 1000px;
+}
+
+.container{
+  width: vw(1150px);
+}
+.MainPage2{
+  height: 94vh;
+  margin-top: 55px;
+  min-height: 1000px;
+}
+
+.animal{
+  margin-top: vw(150px);
+  &_pic {
+    width: vw(630px);
+    height: vw(680px);
+    margin-right: vw(60px);
+    img{
+      border-radius: vw(100px);
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+
+  &_explain {
+    width: vw(500px);
+    &_title {
+      color: $WHITE;
+      background-color: $BTN-8B;
+      height: vw(60px);
+      align-items: center;
+      border-radius: vw(20px);
+      margin-bottom: vw(56px);
+    }
+
+    &_name {
+      color: $GRAY-40;
+      margin-bottom: vw(32px);
+    }
+
+    &_content {
+      color: $GRAY-40;
+      word-spacing: vw(6px);
+      line-height: vw(40px);
+      height: vw(440px);
+      
+    }
+
+
+    &_noti {
+      margin-left: vw(140px);
+      width: vw(200px);
+      height: vw(44px);
+      background-color: $BTN-8B;
+      color: $WHITE;
+      border-radius: vw(12px);
+
+    }
+
+
+  }
+}
+
+.MainPage3{
+  height: 90vh;
+  margin-top: 3%;
+  min-height: 1000px;
+  margin-bottom: 100px;
+}
+
+.Line{
+  margin-inline: 10%;
+}
+.Line2{
+  margin-inline: 1%;
+}
+
+.TodayAnimalImg{
+  display: block;
+  margin-top: 0;
+  margin-inline: auto;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: auto;
+  
+}
+
+.Page1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Page1Content{
+  margin-bottom: 300px;
+  margin-left: 150px;
+}
+
+.page1FontColor{
+  color: white;
+}
+
+.page2FontColor{
+  color: $GRAY-40;
+}
+.AnialContent{
+  padding-inline: 10%;
+}
+
+
+.Button{
+  display: block;
+  margin-inline: auto;
+  width: 300px;
+  height: 30px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: #466b8b;
+  color: white;
+}
+.Button2{
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin-top: 30px;
+  margin-inline: auto;
+  border-radius: 5px;
+  background-color: #466b8b;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.Button3{
+  display: block;
+  width: 15%;
+  min-width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #466b8b;
+  text-align: center;
+  padding-top: 10px;
+}
+.AnimalDescription{
+  margin-top: 50px;
+}
+
+.collectionRank{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.donationRank{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.RankList{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-block: 4%;
+}
+
+.textEnd{
+  padding-right: 4%;
+  text-align: end;
+}
+
+.AnimalCard{
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.rankingBox{
+  margin-inline: 30px;
+  border: 1px solid rgb(99, 97, 97);
+  box-shadow: 1px 1px 15px 0px;
+}
+
+.todayImg{
+  box-shadow: 1px 1px 15px 1px;
+}
